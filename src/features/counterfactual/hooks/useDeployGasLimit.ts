@@ -2,16 +2,16 @@ import useAsync from '@/hooks/useAsync'
 import useChainId from '@/hooks/useChainId'
 import useOnboard from '@/hooks/wallets/useOnboard'
 import { getSafeSDKWithSigner } from '@/services/tx/tx-sender/sdk'
-import { estimateSafeDeploymentGas, estimateTxBaseGas } from '@safe-global/protocol-kit'
-import type Safe from '@safe-global/protocol-kit'
+import { estimateSafeDeploymentGas, estimateTxBaseGas } from 'optopiasepoliaprotocolkit'
+import type Safe from 'optopiasepoliaprotocolkit'
 
 import { OperationType, type SafeTransaction } from '@safe-global/safe-core-sdk-types'
 import {
   getCompatibilityFallbackHandlerContract,
   getSimulateTxAccessorContract,
-} from '@safe-global/protocol-kit/dist/src/contracts/safeDeploymentContracts'
+} from 'optopiasepoliaprotocolkit/dist/src/contracts/safeDeploymentContracts'
 
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { ZERO_ADDRESS } from 'optopiasepoliaprotocolkit/dist/src/utils/constants'
 
 type DeployGasLimitProps = {
   safeTxGas: bigint

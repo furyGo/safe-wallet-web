@@ -7,8 +7,8 @@ import {
 import * as web3 from '@/hooks/wallets/web3'
 import { chainBuilder } from '@/tests/builders/chains'
 import { faker } from '@faker-js/faker'
-import type { PredictedSafeProps } from '@safe-global/protocol-kit'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import type { PredictedSafeProps } from 'optopiasepoliaprotocolkit'
+import { ZERO_ADDRESS } from 'optopiasepoliaprotocolkit/dist/src/utils/constants'
 import { TokenType } from '@safe-global/safe-gateway-typescript-sdk'
 import { type BrowserProvider, type JsonRpcProvider } from 'ethers'
 

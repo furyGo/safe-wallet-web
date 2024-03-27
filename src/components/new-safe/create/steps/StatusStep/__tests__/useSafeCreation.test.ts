@@ -11,8 +11,8 @@ import { BrowserProvider, type Eip1193Provider, zeroPadValue, type JsonRpcProvid
 import type { ConnectedWallet } from '@/hooks/wallets/useOnboard'
 import { chainBuilder } from '@/tests/builders/chains'
 import { waitFor } from '@testing-library/react'
-import type Safe from '@safe-global/protocol-kit'
-import type CompatibilityFallbackHandlerEthersContract from '@safe-global/protocol-kit/dist/src/adapters/ethers/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
+import type Safe from 'optopiasepoliaprotocolkit'
+import type CompatibilityFallbackHandlerEthersContract from 'optopiasepoliaprotocolkit/dist/src/adapters/ethers/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
 import { FEATURES } from '@safe-global/safe-gateway-typescript-sdk'
 import * as gasPrice from '@/hooks/useGasPrice'
 

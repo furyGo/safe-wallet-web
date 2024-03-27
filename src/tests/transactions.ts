@@ -1,10 +1,10 @@
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { ZERO_ADDRESS } from 'optopiasepoliaprotocolkit/dist/src/utils/constants'
 import { solidityPacked, concat } from 'ethers'
 import { OperationType } from '@safe-global/safe-core-sdk-types'
 import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
 
 import { ERC20__factory, ERC721__factory, Multi_send__factory } from '@/types/contracts'
-import EthSafeTransaction from '@safe-global/protocol-kit/dist/src/utils/transactions/SafeTransaction'
+import EthSafeTransaction from 'optopiasepoliaprotocolkit/dist/src/utils/transactions/SafeTransaction'
 
 export const getMockErc20TransferCalldata = (to: string) => {
   const erc20Interface = ERC20__factory.createInterface()

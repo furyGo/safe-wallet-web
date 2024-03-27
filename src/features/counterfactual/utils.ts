@@ -16,8 +16,8 @@ import { upsertAddressBookEntry } from '@/store/addressBookSlice'
 import { defaultSafeInfo } from '@/store/safeInfoSlice'
 import { didRevert, type EthersError } from '@/utils/ethers-utils'
 import { assertOnboard, assertTx, assertWallet } from '@/utils/helpers'
-import type { DeploySafeProps, PredictedSafeProps } from '@safe-global/protocol-kit'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import type { DeploySafeProps, PredictedSafeProps } from 'optopiasepoliaprotocolkit'
+import { ZERO_ADDRESS } from 'optopiasepoliaprotocolkit/dist/src/utils/constants'
 import type { SafeTransaction, SafeVersion, TransactionOptions } from '@safe-global/safe-core-sdk-types'
 import {
   type ChainInfo,

@@ -2,9 +2,9 @@ import useDeployGasLimit from '@/features/counterfactual/hooks/useDeployGasLimit
 import * as onboard from '@/hooks/wallets/useOnboard'
 import * as sdk from '@/services/tx/tx-sender/sdk'
 import { safeTxBuilder } from '@/tests/builders/safeTx'
-import * as protocolKit from '@safe-global/protocol-kit'
-import * as protocolKitContracts from '@safe-global/protocol-kit/dist/src/contracts/safeDeploymentContracts'
-import type Safe from '@safe-global/protocol-kit'
+import * as protocolKit from 'optopiasepoliaprotocolkit'
+import * as protocolKitContracts from 'optopiasepoliaprotocolkit/dist/src/contracts/safeDeploymentContracts'
+import type Safe from 'optopiasepoliaprotocolkit'
 
 import { renderHook } from '@/tests/test-utils'
 import { waitFor } from '@testing-library/react'

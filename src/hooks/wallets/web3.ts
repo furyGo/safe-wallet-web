@@ -2,7 +2,7 @@ import { type ChainInfo, RPC_AUTHENTICATION, type RpcUri } from '@safe-global/sa
 import { INFURA_TOKEN, SAFE_APPS_INFURA_TOKEN } from '@/config/constants'
 import { JsonRpcProvider, BrowserProvider, type Eip1193Provider, type Provider } from 'ethers'
 import ExternalStore from '@/services/ExternalStore'
-import { EMPTY_DATA } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { EMPTY_DATA } from 'optopiasepoliaprotocolkit/dist/src/utils/constants'
 
 // RPC helpers
 const formatRpcServiceUrl = ({ authentication, value }: RpcUri, token: string): string => {

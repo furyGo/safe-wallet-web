@@ -5,7 +5,7 @@ import type { TransactionDetails } from '@safe-global/safe-gateway-typescript-sd
 import { getReadOnlyMultiSendCallOnlyContract } from '@/services/contracts/safeContracts'
 import { useCurrentChain } from '@/hooks/useChains'
 import useSafeInfo from '@/hooks/useSafeInfo'
-import { encodeMultiSendData } from '@safe-global/protocol-kit/dist/src/utils/transactions/utils'
+import { encodeMultiSendData } from 'optopiasepoliaprotocolkit/dist/src/utils/transactions/utils'
 import { useState, useMemo, useContext } from 'react'
 import type { SyntheticEvent } from 'react'
 import { generateDataRowValue } from '@/components/transactions/TxDetails/Summary/TxDataRow'

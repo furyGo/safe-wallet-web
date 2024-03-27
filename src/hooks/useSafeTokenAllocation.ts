@@ -1,7 +1,7 @@
 import { getSafeTokenAddress } from '@/components/common/SafeTokenWidget'
 import { cgwDebugStorage } from '@/components/sidebar/DebugToggle'
 import { IS_PRODUCTION } from '@/config/constants'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { ZERO_ADDRESS } from 'optopiasepoliaprotocolkit/dist/src/utils/constants'
 import { isPast } from 'date-fns'
 import { AbiCoder, Interface, type JsonRpcProvider } from 'ethers'
 import { useMemo } from 'react'

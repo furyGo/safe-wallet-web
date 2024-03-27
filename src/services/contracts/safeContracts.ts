@@ -11,10 +11,10 @@ import type { ChainInfo, SafeInfo } from '@safe-global/safe-gateway-typescript-s
 import type { GetContractProps, SafeVersion } from '@safe-global/safe-core-sdk-types'
 import { assertValidSafeVersion, createEthersAdapter, createReadOnlyEthersAdapter } from '@/hooks/coreSDK/safeCoreSDK'
 import type { BrowserProvider } from 'ethers'
-import type { EthersAdapter, SafeContractEthers, SignMessageLibEthersContract } from '@safe-global/protocol-kit'
+import type { EthersAdapter, SafeContractEthers, SignMessageLibEthersContract } from 'optopiasepoliaprotocolkit'
 import semver from 'semver'
 
-import type CompatibilityFallbackHandlerEthersContract from '@safe-global/protocol-kit/dist/src/adapters/ethers/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
+import type CompatibilityFallbackHandlerEthersContract from 'optopiasepoliaprotocolkit/dist/src/adapters/ethers/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
 
 // `UNKNOWN` is returned if the mastercopy does not match supported ones
 // @see https://github.com/safe-global/safe-client-gateway/blob/main/src/routes/safes/handlers/safes.rs#L28-L31

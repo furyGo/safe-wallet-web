@@ -1,5 +1,5 @@
 import { JsonRpcProvider, type TransactionResponse } from 'ethers'
-import { EMPTY_DATA, ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { EMPTY_DATA, ZERO_ADDRESS } from 'optopiasepoliaprotocolkit/dist/src/utils/constants'
 import * as web3 from '@/hooks/wallets/web3'
 import type { TransactionReceipt } from 'ethers'
 import {

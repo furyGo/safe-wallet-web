@@ -1,10 +1,10 @@
 import { toBeHex } from 'ethers'
 import { BrowserProvider, id, AbiCoder, type Eip1193Provider } from 'ethers'
-import Safe from '@safe-global/protocol-kit'
+import Safe from 'optopiasepoliaprotocolkit'
 import {
   getProxyFactoryContract,
   getSafeContract,
-} from '@safe-global/protocol-kit/dist/src/contracts/safeDeploymentContracts'
+} from 'optopiasepoliaprotocolkit/dist/src/contracts/safeDeploymentContracts'
 import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'
 import { initSafeSDK, isValidSafeVersion } from '../safeCoreSDK'
 

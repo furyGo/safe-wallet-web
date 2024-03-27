@@ -1,6 +1,6 @@
 import { computeNewSafeAddress } from '@/components/new-safe/create/logic/index'
 import { isSmartContract } from '@/hooks/wallets/web3'
-import type { DeploySafeProps } from '@safe-global/protocol-kit'
+import type { DeploySafeProps } from 'optopiasepoliaprotocolkit'
 import type { BrowserProvider } from 'ethers'
 
 export const getAvailableSaltNonce = async (provider: BrowserProvider, props: DeploySafeProps): Promise<string> => {

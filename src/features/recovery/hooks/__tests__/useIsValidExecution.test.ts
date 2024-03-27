@@ -9,7 +9,7 @@ import type { Eip1193Provider } from 'ethers'
 import { JsonRpcProvider, BrowserProvider } from 'ethers'
 import * as contracts from '@/services/contracts/safeContracts'
 
-import type { SafeContractEthers } from '@safe-global/protocol-kit'
+import type { SafeContractEthers } from 'optopiasepoliaprotocolkit'
 const createSafeTx = (data = '0x'): SafeTransaction => {
   return {
     data: {

@@ -2,7 +2,7 @@ import * as creationUtils from '@/components/new-safe/create/logic/index'
 import { getAvailableSaltNonce } from '@/components/new-safe/create/logic/utils'
 import * as web3Utils from '@/hooks/wallets/web3'
 import { faker } from '@faker-js/faker'
-import type { DeploySafeProps } from '@safe-global/protocol-kit'
+import type { DeploySafeProps } from 'optopiasepoliaprotocolkit'
 import { BrowserProvider, type Eip1193Provider } from 'ethers'
 
 describe('getAvailableSaltNonce', () => {

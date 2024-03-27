@@ -4,9 +4,9 @@ import type { ChainInfo, SafeInfo } from '@safe-global/safe-gateway-typescript-s
 import { getReadOnlyFallbackHandlerContract, getReadOnlyGnosisSafeContract } from '@/services/contracts/safeContracts'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 import { assertValidSafeVersion } from '@/hooks/coreSDK/safeCoreSDK'
-import { SAFE_FEATURES } from '@safe-global/protocol-kit/dist/src/utils/safeVersions'
+import { SAFE_FEATURES } from 'optopiasepoliaprotocolkit/dist/src/utils/safeVersions'
 import { hasSafeFeature } from '@/utils/safe-versions'
-import type { SafeContractEthers } from '@safe-global/protocol-kit'
+import type { SafeContractEthers } from 'optopiasepoliaprotocolkit'
 
 const getChangeFallbackHandlerCallData = async (
   safe: SafeInfo,

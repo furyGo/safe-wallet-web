@@ -1,6 +1,6 @@
 import { type RootState } from '@/store'
 import { createSelector, createSlice, type PayloadAction } from '@reduxjs/toolkit'
-import type { PredictedSafeProps } from '@safe-global/protocol-kit'
+import type { PredictedSafeProps } from 'optopiasepoliaprotocolkit'
 
 export enum PendingSafeStatus {
   AWAITING_EXECUTION = 'AWAITING_EXECUTION',

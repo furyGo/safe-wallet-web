@@ -29,7 +29,7 @@ import { useAppSelector } from '@/store'
 import { hasFeature } from '@/utils/chains'
 import { hasRemainingRelays } from '@/utils/relaying'
 import { Box, Button, CircularProgress, Divider, Grid, Typography } from '@mui/material'
-import type { DeploySafeProps } from '@safe-global/protocol-kit'
+import type { DeploySafeProps } from 'optopiasepoliaprotocolkit'
 import { FEATURES } from '@safe-global/safe-gateway-typescript-sdk'
 import React, { useContext, useState } from 'react'
 

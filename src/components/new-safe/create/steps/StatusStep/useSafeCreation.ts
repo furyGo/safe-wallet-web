@@ -24,7 +24,7 @@ import { waitForCreateSafeTx } from '@/services/tx/txMonitor'
 import useGasPrice from '@/hooks/useGasPrice'
 import { hasFeature } from '@/utils/chains'
 import { FEATURES } from '@safe-global/safe-gateway-typescript-sdk'
-import type { DeploySafeProps } from '@safe-global/protocol-kit'
+import type { DeploySafeProps } from 'optopiasepoliaprotocolkit'
 import { usePendingSafe } from './usePendingSafe'
 
 export enum SafeCreationStatus {

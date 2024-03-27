@@ -1,4 +1,4 @@
-import { networks } from '@safe-global/protocol-kit/dist/src/utils/eip-3770/config'
+import { networks } from 'optopiasepoliaprotocolkit/dist/src/utils/eip-3770/config'
 /**
  * A static shortName<->chainId dictionary
  * E.g.:

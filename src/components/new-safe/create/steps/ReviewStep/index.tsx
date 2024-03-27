@@ -34,7 +34,7 @@ import { FEATURES } from '@/utils/chains'
 import { hasRemainingRelays } from '@/utils/relaying'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import { Alert, Box, Button, CircularProgress, Divider, Grid, Typography } from '@mui/material'
-import { type DeploySafeProps } from '@safe-global/protocol-kit'
+import { type DeploySafeProps } from 'optopiasepoliaprotocolkit'
 import { type ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import classnames from 'classnames'
 import Image from 'next/image'
@@ -233,6 +233,7 @@ const ReviewStep = ({ data, onSubmit, onBack, setStep }: StepRenderProps<NewSafe
       setPendingSafe(pendingSafe)
       onSubmit(pendingSafe)
     } catch (_err) {
+      console.log(_err)
       setSubmitError('Error creating the Safe Account. Please try again later.')
     }
 

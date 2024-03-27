@@ -1,5 +1,5 @@
 import { setSafeSDK } from '@/hooks/coreSDK/safeCoreSDK'
-import type Safe from '@safe-global/protocol-kit'
+import type Safe from 'optopiasepoliaprotocolkit'
 import type { TransactionResult } from '@safe-global/safe-core-sdk-types'
 import { type TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
 import { getTransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
@@ -19,7 +19,7 @@ import { waitFor } from '@/tests/test-utils'
 import { BrowserProvider, zeroPadValue } from 'ethers'
 import * as safeContracts from '@/services/contracts/safeContracts'
 
-import type { MultiSendCallOnlyEthersContract } from '@safe-global/protocol-kit'
+import type { MultiSendCallOnlyEthersContract } from 'optopiasepoliaprotocolkit'
 import * as web3 from '@/hooks/wallets/web3'
 
 const setupFetchStub = (data: any) => (_url: string) => {
@@ -31,7 +31,7 @@ const setupFetchStub = (data: any) => (_url: string) => {
 }
 import type { EIP1193Provider, OnboardAPI, WalletState, AppState } from '@web3-onboard/core'
 import { toBeHex } from 'ethers'
-import { generatePreValidatedSignature } from '@safe-global/protocol-kit/dist/src/utils/signatures'
+import { generatePreValidatedSignature } from 'optopiasepoliaprotocolkit/dist/src/utils/signatures'
 import { createMockSafeTransaction } from '@/tests/transactions'
 import type { JsonRpcSigner } from 'ethers'
 
